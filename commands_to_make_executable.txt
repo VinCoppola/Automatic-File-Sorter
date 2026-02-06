@@ -1,0 +1,9 @@
+Here are some cmd functions ran to create the exe file. 
+
+cd INSERT YOUR CURRENT DIRECTORY
+
+pip install pandas
+pip install PyInstaller
+
+python -m PyInstaller --onefile --console --icon=folders.ico --clean --name="File Sorter" Automatic_File_Sorter_Application.py
+
